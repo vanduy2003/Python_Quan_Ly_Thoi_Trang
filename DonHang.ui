@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1163</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1231</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox{
+	background-color:rgb(255, 255, 127);
+}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>10</y>
+       <width>441</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+	background-color:rgb(255, 170, 255);
+	border-radius: 15px;
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>451</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Đơn hàng&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>431</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+	background-color:rgb(85, 255, 127);
+	font-size:18px;
+	border-radius:10px;
+}</string>
+     </property>
+     <property name="title">
+      <string>Thông tin</string>
+     </property>
+     <widget class="QComboBox" name="cmbQuyen">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>361</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtHoTen">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>361</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Trạng thái đơn hàng...</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtHoTen_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>361</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Tên sản phẩm...</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="btnThem">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>380</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font-size: 20px;
+    border-radius: 10px;
+	background-color: rgb(0, 85, 255);
+	color:rgb(255, 255, 255);
+	font-weight: bold;
+}
+QPushButton:hover{
+	background-color: rgb(0, 170, 255);
+	cursor: pointer;
+}</string>
+     </property>
+     <property name="text">
+      <string>Thêm</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSua">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>380</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font-size: 20px;
+    border-radius: 10px;
+	background-color: rgb(0, 170, 0);
+	color:rgb(255, 255, 255);
+	font-weight: bold;
+}
+QPushButton:hover{
+	background-color:rgb(0, 255, 127);
+	cursor: pointer;
+}</string>
+     </property>
+     <property name="text">
+      <string>Sửa</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnXoa">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>450</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font-size: 20px;
+    border-radius: 10px;
+	background-color: rgb(255, 0, 0);
+	color:rgb(255, 255, 255);
+	font-weight: bold;
+}
+QPushButton:hover{
+	background-color: rgb(255, 84, 84);
+	cursor: pointer;
+}</string>
+     </property>
+     <property name="text">
+      <string>Xóa</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnThoat">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>450</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font-size: 20px;
+    border-radius: 10px;
+	background-color: rgb(0, 85, 255);
+	color:rgb(255, 255, 255);
+	font-weight: bold;
+}
+QPushButton:hover{
+	background-color: rgb(0, 170, 255);
+	cursor: pointer;
+}</string>
+     </property>
+     <property name="text">
+      <string>Thoát</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnThem_2">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>520</y>
+       <width>351</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font-size: 20px;
+    border-radius: 10px;
+	background-color: rgb(0, 85, 255);
+	color:rgb(255, 255, 255);
+	font-weight: bold;
+}
+QPushButton:hover{
+	background-color: rgb(0, 170, 255);
+	cursor: pointer;
+}</string>
+     </property>
+     <property name="text">
+      <string>Thêm sản phẩm vào đơn hàng</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>110</y>
+       <width>671</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTableWidget{
+	color:rgb(0, 0, 0)
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+	Background-color:rgb(255, 255, 255)
+}</string>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID đơn hàng</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Trạng thái đơn hàng</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Tên khách hàng</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ngày tạo</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ngày cập nhật</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
